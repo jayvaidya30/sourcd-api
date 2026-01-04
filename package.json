@@ -1,0 +1,29 @@
+{
+  "name": "sourcd-api",
+  "version": "1.0.0",
+  "description": "> The backend API for Sourcd, a community platform for sharing developer resources.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node ./dist/index.js",
+    "dev": "pnpm run build && pnpm run start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jayvaidya30/sourcd-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/jayvaidya30/sourcd-api/issues"
+  },
+  "homepage": "https://github.com/jayvaidya30/sourcd-api#readme",
+  "dependencies": {
+    "typescript": "^5.9.3"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.3"
+  }
+}
